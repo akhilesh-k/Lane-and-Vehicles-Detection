@@ -13,4 +13,4 @@ The goals of this project are:
 <br>
 
 #### [**(1) Test Video with Vehicle Detection**](https://youtu.be/-ZhEe5e7iNY)
-[[demo1.gif](examples/demo1.gif)
+[![gif_demo1][demo1.gif]](examples/demo1.gif)
