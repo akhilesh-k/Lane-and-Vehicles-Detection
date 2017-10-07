@@ -14,4 +14,4 @@ The goals of this project are:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-ZhEe5e7iNY" target="_blank"><img src="http://img.youtube.com/vi/-ZhEe5e7iNY/0.jpg" 
 alt="Vehicle Detection on test video." width="240" height="180" border="10" /></a>
 <br>
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-ZhEe5e7iNY/0.jpg)](http://www.youtube.com/watch?v=-ZhEe5e7iNY)
+[![Vehicle Detection on Test Video](http://img.youtube.com/vi/-ZhEe5e7iNY/0.jpg)](http://www.youtube.com/watch?v=-ZhEe5e7iNY)
