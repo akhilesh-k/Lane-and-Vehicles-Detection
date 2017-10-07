@@ -13,4 +13,4 @@ The goals of this project are:
 <br>
 
 #### [**(1) Highway Drive (with Lane Departure Warning)**](https://youtu.be/-ZhEe5e7iNY) (Click to see the full video)
-[![gif_demo2][demo2_gif]](https://youtu.be/-ZhEe5e7iNY)
+[![gif_demo1][Examples/demo1.gif]](https://youtu.be/-ZhEe5e7iNY)
