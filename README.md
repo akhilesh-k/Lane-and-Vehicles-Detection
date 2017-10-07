@@ -11,7 +11,7 @@ The goals of this project are:
 * Run your pipeline on a video stream (taken video is, test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.<br>
 <br>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=-ZhEe5e7iNY" target="_blank"><img src="http://img.youtube.com/vi/-ZhEe5e7iNY/0.jpg" 
-alt="Vehicle Detection on test video." width="240" height="180" border="10" /></a>
-<br>
-[![Vehicle Detection on Test Video](http://img.youtube.com/vi/-ZhEe5e7iNY/0.jpg)](http://www.youtube.com/watch?v=-ZhEe5e7iNY)
+
+#### [**(1) Highway Drive (with Lane Departure Warning)**](https://youtu.be/-ZhEe5e7iNY) (Click to see the full video)
+
+[![gif_demo1][demo1_gif]](https://youtu.be/-ZhEe5e7iNY)
