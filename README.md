@@ -162,7 +162,7 @@ The code to perform the above is in the function `final_viz()` in 'line_fit.py'.
 
 Below is the final annotated version of our original image. For all images in 'test_images/\*.jpg', the final annotated version of that image is saved in 'output_images/annotated_\*.png'.
 
-![annotated](output_images/annotated_test2.png)
+![annotated](/out-lane.gif)
 
 
 
