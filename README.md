@@ -1,5 +1,5 @@
 ## Lane and Vehicle Detection
-**This is not the Repository for the Udacity's Self Driving Car Repository. This just collection of self sourced Nanodegree projects and resources used are freely available courserwork on Udacity.**
+**This is not the Repository for the Udacity's Self Driving Car Repository. This is just collection of self sourced Nanodegree projects and resources used are freely available courserwork on Udacity.**
 
 ![Self Driving Car-Vehicles and Lane Detection](https://github.com/akhilesh-k/Lane-and-Vehicles-Detection/blob/master/out.gif)
 
@@ -30,24 +30,19 @@
 [video2]: ./test_video_out_2.mp4
 [video3]: ./project_video_out.mp4
 
-## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
+### I have considered Udacity's freely available insstructions for writeup. As it gives fairly great idea to explain project.
 
 ---
 
-### Writeup / README
+### Writeup
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
+#### 1.View [here](https://github.com/akhilesh-k/Lane-and-Vehicles-Detection/blob/master/writeup_template.md) the template writeup provided by Udacity.
 
-You're reading it!
-
-All of the code for the project is contained in the Jupyter notebook `vehicle_detection_project.ipynb` 
+Well Documented codes are avilable in Jupyter Notebook file [`vehicle_detect.ipynb`](https://github.com/akhilesh-k/Lane-and-Vehicles-Detection/blob/master/vehicle-detect.ipynb) 
 
 ---
 
 ### Histogram of Oriented Gradients (HOG)
-
-#### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
 
 I began by loading all of the vehicle and non-vehicle image paths from the provided dataset. The figure below shows a random sample of images from both classes of the dataset.
 
