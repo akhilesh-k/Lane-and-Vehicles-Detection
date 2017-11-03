@@ -1,9 +1,28 @@
 ## Lane and Vehicle Detection
 **This is not the Repository for the Udacity's Self Driving Car Repository. This is just collection of self sourced Nanodegree projects and resources used are freely available courserwork on Udacity.**
+### Dependencies
+
+    - Python 3.5
+    - Numpy
+    - OpenCV-Python
+    - Matplotlib
+    - Pickle
 
 ![Self Driving Car-Vehicles and Lane Detection](https://github.com/akhilesh-k/Lane-and-Vehicles-Detection/blob/master/out.gif)
 
-**Goals:**<br>
+**The following steps were performed for lane detection:**
+
+    Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
+    Apply a distortion correction to raw images.
+    Use color transforms, gradients, etc., to create a thresholded binary image.
+    Apply a perspective transform to rectify binary image ("birds-eye view").
+    Detect lane pixels and fit to find the lane boundary.
+    Determine the curvature of the lane and vehicle position with respect to center.
+    Warp the detected lane boundaries back onto the original image.
+    Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
+
+**Following Steps are taken for Vehicle Detection **<br>
 
 - Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a Linear SVM classifier
 - Optionally, you can also apply a color transform and append binned color features, as well as histograms of color, to your HOG feature vector. 
