@@ -51,7 +51,7 @@ Detect lanes and Vehicles using computer vision and Deep Learning techniques. Th
 [video2]: ./test_video_out_2.mp4
 [video3]: ./project_video_out.mp4
 
-### I have considered Udacity's freely available insstructions for writeup. As it gives fairly great idea to explain project.
+### I have considered Udacity's freely available instructions available as [Rubric Points](https://review.udacity.com/#!/rubrics/513/view) for writeup. As it gives fairly great idea to explain project.
 ---
 
 ## How to run
@@ -60,6 +60,9 @@ Run `python lanedetect.py`. This will take the raw video file at 'project_video.
 To run the lane detection script for any video files, update the last few lines of 'lanedetect.py'.
 
 ## Camera calibration
+Real cameras use curved lenses to form an image, and light rays often bend a little too much or too little at the edges of these lenses. This creates an effect that distorts the edges of images, so that lines or objects appear more or less curved than they actually are. This is called radial distortion, which is the most common type of distortion.<br>
+
+There are three coefficients needed to correct radial distortion: k1, k2, and k3. To correct the appearance of radially distorted points in an image, one can use a correction formula mentioned below.<br>
 The camera was calibrated using the chessboard images in `camera_calibration/*.jpg`. The following steps were performed for each calibration image:
 
 * Convert to grayscale
