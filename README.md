@@ -1,5 +1,6 @@
 ## Lane and Vehicle Detection
 **This is not the Repository for the Udacity's Self Driving Car Nanodegree. This is just collection of self sourced Nanodegree projects and resources used are freely available courserwork on Udacity.**
+**Note:** The repository does not contain any training images. You have to download and unzip the image datasets of vehicles and non-vehicles provided by Udacity and place them in appropriate directories on your own.<br>
 ### Overview
 Detect lanes and Vehicles using computer vision and Deep Learning techniques. This project is based on the format and open sourced codes from [Udacity Self-Driving Car Nanodegree](https://www.udacity.com/drive), and much of the code is leveraged from the provided Jupyter Notebooks.
 ### Dependencies
