@@ -2,6 +2,7 @@
 **This is not the Repository for the Udacity's Self Driving Car Nanodegree. This is just collection of self sourced Nanodegree projects and resources used are freely available courserwork on Udacity.**<br>
 
 **Note:** The repository does not contain any training images. You have to download and unzip the image datasets of vehicles and non-vehicles provided by Udacity and place them in appropriate directories on your own.<br>
+I have moved to GTI repository due to small size compared to udacity's. It can be found in **training_dataset** folder. You can also download it [here](http://www.gti.ssr.upm.es/data/Vehicle_database.html)
 Please find all the Challanges, Datasets and other Open Sourced Stuffs by Udacity on Self Driving Car [here](https://github.com/udacity/self-driving-car)<br>
 
 =======
@@ -17,6 +18,9 @@ Detect lanes and Vehicles using computer vision and Deep Learning techniques. Th
     - cv2
     - Matplotlib
     - Pickle
+    - scikit-learn
+    - scikit-image
+    
     
 
 ![Self Driving Car-Vehicles and Lane Detection](https://github.com/akhilesh-k/Lane-and-Vehicles-Detection/blob/master/out.gif)
