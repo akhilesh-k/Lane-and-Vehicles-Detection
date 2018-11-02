@@ -263,25 +263,17 @@ The final parameters chosen were those labeled "configuration 24" in the table a
 | 18                    | Linear SVC | 95.81    | 3.79       |
 | 19                    | Linear SVC | 95.95    | 4.84       |
 | 20                    | Linear SVC | 96.59    | 5.46       |
-| 21                    | Linear SVC | 95.16    | 0.52       |
-| 22                    | Linear SVC | 94.85    | 1.27       |
-| 23                    | Linear SVC | 95.92    | 21.39      |
-| 24                    | Linear SVC | 98.17    | 1.14       |
-| 25                    | Linear SVC | 97.61    | 1.42       |
 
-*Note: I neglected to record the time to make predictions, but I consider the classifier training time to be a reasonable proxy.*
 
-#### 3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
+
+#### 3.Classifier Training and HOG computation.
 
 In the section titled "Train a Classifier" I trained a linear SVM with the default classifier parameters and using HOG features alone (I did not use spatial intensity or channel intensity histogram features) and was able to achieve a test accuracy of 98.17%. 
 
 ---
 
-### Sliding Window Search
-
-#### 1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
-
-In the section titled "Method for Using Classifier to Detect Cars in an Image" I adapted the method `find_cars` from the lesson materials. The method combines HOG feature extraction with a sliding window search, but rather than perform feature extraction on each window individually which can be time consuming, the HOG features are extracted for the entire image (or a selected portion of it) and then these full-image features are subsampled according to the size of the window and then fed to the classifier. The method performs the classifier prediction on the HOG features for each window region and returns a list of rectangle objects corresponding to the windows that generated a positive ("car") prediction.
+### Sliding window search
+Method for Using Classifier to Detect Cars in an Image I adapted the method `find_cars` from the lesson materials. The method combines HOG feature extraction with a sliding window search, but rather than perform feature extraction on each window individually which can be time consuming, the HOG features are extracted for the entire image (or a selected portion of it) and then these full-image features are subsampled according to the size of the window and then fed to the classifier. The method performs the classifier prediction on the HOG features for each window region and returns a list of rectangle objects corresponding to the windows that generated a positive ("car") prediction.
 
 The image below shows the first attempt at using `find_cars` on one of the test images, using a single window size:
 
@@ -341,4 +333,4 @@ The code for processing frames of video is contained in the cell titled "Pipelin
 
 #### Robustness of the Pipeline
 
-The pipeline is probably most likely to fail in cases where vehicles (or the HOG features thereof) don't resemble those in the training dataset, but lighting and environmental conditions might also play a role (e.g. a white car against a white background). Incoming cars are an issue, as well as distant cars as smaller window scales tend to produce more false positives, but they also did not often correctly label the smaller windows.
+The pipeline is probably most likely to fail in cases where vehicles (HOG Features) don't resemble those in the training dataset, but lighting and environmental conditions might also play a role. Incoming cars are an issue, as well as distant cars as smaller window scales tend to produce more false positives, but they also did not often correctly label the smaller windows.
